@@ -3,6 +3,7 @@ import { defineComponent} from 'vue';
 import AboutMe from './components/AboutMe.vue'
 import SkillsList from './components/SkillsList.vue'
 import Accueil from './components/Accueil.vue'
+import WidgetFleche from './components/WidgetFleche.vue'
 
 
 
@@ -14,6 +15,7 @@ export default defineComponent({
     AboutMe,
     SkillsList,
     Accueil,
+    WidgetFleche,
   },
 });
 </script>
@@ -22,17 +24,24 @@ export default defineComponent({
 
 
 <template>
-      <!-- TODO : Accueil -->
-      <Accueil/>
-      <!-- A propos de moi et Technologies utilisées -->
+  <Accueil/>
+
+  <!-- ICI -->
+<WidgetFleche/>
+
+  <!--FIN TRUC CHELOU-->
+
   <div class="custom-bg-color flex flex-wrap md:flex-nowrap ">
     <AboutMe/>
- <SkillsList/>
-</div>
-<div class="scroll-test"></div>
-
+    <SkillsList/>
+  </div>
+  <div class="scroll-test"></div>
 
 </template>
+
+
+
+
 
 <style scoped>
 .custom-bg-color {
@@ -43,7 +52,6 @@ export default defineComponent({
 .scroll-test {
   height: 5000px; /* Ou toute autre hauteur suffisante pour forcer le défilement */
 }
-
 </style>
 
 
