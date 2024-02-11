@@ -1,0 +1,13 @@
+[
+    { "name": "Java", "level": 100, "animatedLevel": 0 },
+    { "name": "Flutter", "level": 100, "animatedLevel": 0 },
+    { "name": "C", "level": 80, "animatedLevel": 0 },
+    { "name": "Vue.js", "level": 75, "animatedLevel": 0 },
+    { "name": "Spring Boot", "level": 75, "animatedLevel": 0 },
+    { "name": "y86", "level": 70, "animatedLevel": 0 },
+    { "name": "Ocaml", "level": 65, "animatedLevel": 0 },
+    { "name": "Tailwind", "level": 40, "animatedLevel": 0 },
+    { "name": "JS CSS HTML", "level": 80, "animatedLevel": 0 },
+    { "name": "Python", "level": 35, "animatedLevel": 0 }
+  ]
+  
