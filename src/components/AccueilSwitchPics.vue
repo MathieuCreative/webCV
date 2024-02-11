@@ -1,7 +1,9 @@
-<template>
-    <div class="md:flex-1 p-4 bg-white shadow rounded-lg mr-20 ml-20 my-5">
-      <h2 class="text-2xl font-bold mb-4">À propos de moi</h2>
-      <p class="text-black">
+<template>     
+<div class="md:flex-1 p-4 bg-[#4D4D4D] rounded-lg mr-2 ml-2 my-5">
+
+    <div class="md:flex-1 p-4 bg-[#000956] rounded-lg mr-2 ml-2 my-5">
+      <h2 class="text-2xl font-bold mb-4 text-white">À propos de moi</h2>
+      <p class="text-white">
         Hello👋
         <br>Je suis Mathieu Magnin, un étudiant en 3ème année de Licence Informatique à l’Université de Bordeaux.
         <br>L’année prochaine, je souhaite rejoindre l’EINSERB-MATMECA en <strong>alternance</strong>.
@@ -11,13 +13,30 @@
         <br>N'hésitez pas à me contacter pour en savoir plus !
       </p>
     </div>
+</div>
+
   </template>
+
+    
+    <script lang="ts">
   
-  <script lang="ts">
+  export default{
+    name: 'AccueilAboutMe',
+  
+  }
+  
+  
 
-export default{
-  name: 'AboutMe'
+  </script>
+
+
+
+
+<style scoped>
+.couleur-accueil {
+  background-color: #4D4D4D;
 }
-
-
-</script>
+.custom-bg-color {
+  background-color: #000956;
+}
+</style>

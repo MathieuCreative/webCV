@@ -2,6 +2,8 @@
 import { defineComponent} from 'vue';
 import AboutMe from './components/AboutMe.vue'
 import SkillsList from './components/SkillsList.vue'
+import Accueil from './components/Accueil.vue'
+
 
 
 
@@ -11,6 +13,7 @@ export default defineComponent({
   components: {
     AboutMe,
     SkillsList,
+    Accueil,
   },
 });
 </script>
@@ -19,9 +22,10 @@ export default defineComponent({
 
 
 <template>
-
+      <!-- TODO : Accueil -->
+      <Accueil/>
+      <!-- A propos de moi et Technologies utilisées -->
   <div class="custom-bg-color flex flex-wrap md:flex-nowrap ">
-    <!-- Zone de texte avec padding et marge -->
     <AboutMe/>
  <SkillsList/>
 </div>
@@ -32,7 +36,7 @@ export default defineComponent({
 
 <style scoped>
 .custom-bg-color {
-  background-color: #000C79;
+  background-color: #000956;
 }
 
 /* Styles pour le div de test de défilement */
