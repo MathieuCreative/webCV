@@ -33,6 +33,7 @@ export default defineComponent({
 
 <template>
   <div class = "custom-bg-color">
+    <div class="scroll-test custom-bg-color"></div>
 
   <Accueil/>
 
@@ -53,8 +54,6 @@ export default defineComponent({
 <Contact/>
 
 </div>
-<div class="espace"></div>
-
 </template>
 
 
@@ -67,11 +66,9 @@ export default defineComponent({
 }
 
 /* Styles pour le div de test de défilement */
-.espace {
-  height: 5000px; /* Ou toute autre hauteur suffisante pour forcer le défilement */
-  background-color: #6b6b6b;
+.scroll-test {
+  height: 10vh; /* Ou toute autre hauteur suffisante pour forcer le défilement */
 }
-
 
 </style>
 

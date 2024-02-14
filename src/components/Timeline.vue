@@ -1,7 +1,7 @@
 <template>
     <div class="h-16"></div>
 
-<h1 class="text-center text-3xl text-white">Ma formation académique</h1>
+<h1 class="text-center text-5xl text-white">Ma formation académique</h1>
 <div class="timeline custom-bg-color">
     <div class="container left-container">
         <div class="rond"></div>
