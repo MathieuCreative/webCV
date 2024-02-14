@@ -1,9 +1,10 @@
 <script lang="ts">
 import { defineComponent} from 'vue';
-import AboutMe from './components/AboutMe.vue'
+import SwitchPics from './components/SwitchPics.vue'
 import SkillsList from './components/SkillsList.vue'
 import Accueil from './components/Accueil.vue'
 import WidgetFleche from './components/WidgetFleche.vue'
+import Timeline from './components/Timeline.vue'
 
 
 
@@ -12,10 +13,11 @@ import WidgetFleche from './components/WidgetFleche.vue'
 export default defineComponent({
   name: 'Main',
   components: {
-    AboutMe,
+    SwitchPics,
     SkillsList,
     Accueil,
     WidgetFleche,
+    Timeline,
   },
 });
 </script>
@@ -24,6 +26,8 @@ export default defineComponent({
 
 
 <template>
+  <div class = "custom-bg-color">
+
   <Accueil/>
 
   <!-- ICI -->
@@ -32,10 +36,16 @@ export default defineComponent({
   <!--FIN TRUC CHELOU-->
 
   <div class="custom-bg-color flex flex-wrap md:flex-nowrap ">
-    <AboutMe/>
+    <SwitchPics/>
     <SkillsList/>
   </div>
+  <div class="custom-bg-color">
+    <Timeline/>
+  </div>
+
   <div class="scroll-test"></div>
+
+</div>
 
 </template>
 
@@ -52,6 +62,8 @@ export default defineComponent({
 .scroll-test {
   height: 5000px; /* Ou toute autre hauteur suffisante pour forcer le défilement */
 }
+
+
 </style>
 
 

@@ -9,7 +9,7 @@
         <br>L’année prochaine, je souhaite rejoindre l’EINSERB-MATMECA en <strong>alternance</strong>.
         <br>Je cherche donc une entreprise pour réaliser un <strong>stage de 4 mois</strong> (1er mai - 1er septembre), et peut-être enchaîner sur une alternance ensemble ensuite !
         <br>Comme le montre la variété des technologies que j'ai rencontrées : <strong>tout m'intéresse du moment que ça touche à informatique </strong>!
-        <br>En parallèle de mes études, j'avance également sur mon gros projet d'application mobile autour du sport "trAIn" avec Flutter, Dart et Riverpod.
+        <br>En parallèle de mes études, j'avance également sur mon gros projet d'application mobile autour du sport "trAIn" avec Flutter, Dart et Firebase.
         <br>N'hésitez pas à me contacter pour en savoir plus !
       </p>
     </div>

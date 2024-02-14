@@ -13,7 +13,7 @@
     Et l'utilisateur peut cliquer sur un bouton et ça affiche la combinaison en question
 -->
 <AccueilProfilePic/>
-<AccueilSwitchPics/>
+<AccueilSwitchPics class="slide-in"/>
 </div>
   </template>
   
@@ -26,7 +26,7 @@ export default{
   components:{
     AccueilSwitchPics,
     AccueilProfilePic,
-  }
+  },
 
 }
 
@@ -37,6 +37,20 @@ export default{
 
 
 <style scoped>
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%); /* Commence à droite de l'écran */
+  }
+  to {
+    transform: translateX(0); /* Termine à sa position normale */
+  }
+}
+
+.slide-in {
+  animation: slideInFromRight 1s ease-out forwards; /* Adaptez la durée et le type d'animation selon vos préférences */
+}
+
 .couleur-accueil {
   background-color: #4D4D4D;
 }
