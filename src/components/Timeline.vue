@@ -1,40 +1,50 @@
 <template>
+    <div class="h-16"></div>
 
+<h1 class="text-center text-3xl text-white">Ma formation académique</h1>
 <div class="timeline custom-bg-color">
-
     <div class="container left-container">
-        <img src="../assets/coolpick2.png">
+        <div class="rond"></div>
         <div class="text-box">
-            <h2>Alphabet Inc</h2>
-            <small> 2018-2019</small>
-            <p>Succès dezakndoiznrkejndzlekbfvchk abejlézkdqjevhkzajldnbesjfehbdsdopqlefnljkb
+            <h2>Baccalauréat Economique et Social, Spécialité Mathématiques, Mention Assez Bien</h2>
+            <small>2019</small>
+            <p>Lycée Saint-Genès Lasalle.
             </p>
             <span class="left-container-arrow"></span>
         </div>
     </div>
 
     <div class="container right-container">
-        <img src="../assets/teamupnow.png">
+        <div class="rond"></div>
         <div class="text-box">
-            <h2>Alphabet Inc</h2>
-            <small> 2018-2019</small>
-            <p>Succès dezakndoiznrkejndzlekbfv chkabejlézkdqjevhkzajldnbesjfehbdsdopqlefnljkb
+            <h2>Diplôme Universitaire Technologique en Gestion des Entreprises et des Administrations</h2>
+            <small> 2019-2021</small>
+            <p>Parcours Gestion et Management des Organisations.<br>Analyse des flux financiers de l'entreprise, Marketing opérationnel, Droit lié à l'entreprise (affaires, concurrence).
             </p>
             <span class="right-container-arrow"></span>
         </div>
     </div>
 
     <div class="container left-container">
-        <img src="../assets/train.png">
+        <div class="rond"></div>
         <div class="text-box">
-            <h2>Alphabet Inc</h2>
-            <small> 2018-2019</small>
-            <p>Succès dezakndoiznrkejndzlekbf vchkabejlézkdqjevhkzajldnbesjfehbdsdopqlefnljkb
+            <h2>Stage de fin d'études puis CDD chez Platform Garden</h2>
+            <small>Mai 2021 - Septembre 2021</small>
+            <p>2 mois et demi de stage qui ont débouché sur un emploi saisonnier de deux mois en CDD en tant qu'assistant commercial.
             </p>
             <span class="left-container-arrow"></span>
         </div>
     </div>
 
+    <div class="container right-container">
+        <div class="rond"></div>
+        <div class="text-box">
+            <h2>Licence Informatique</h2>
+            <small>Septembre 2021 - Avril 2024</small>
+            <p>En 3ème année à l'Université de Bordeaux.</p>
+            <span class="right-container-arrow"></span>
+        </div>
+    </div>
 
 </div>
 
@@ -47,9 +57,6 @@
  
  
  <style scoped>
- .body{
-    background-color: #746868;
- }
 
 .timeline{
     position : relative;
@@ -83,7 +90,9 @@
 .container:nth-child(3){
     animation-delay : 2s
 }
-
+.container:nth-child(4){
+    animation-delay : 3s
+}
 
 .text-box{
     padding : 20px 30px;
@@ -99,17 +108,22 @@
 .right-container{
     left:50%
 }
-.container img{
+
+.container .rond {
     position: absolute;
-    width:40px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    background-color: #fff;
     right: -20px;
     top: 32px;
     z-index: 10;
 }
-.right-container img{
+.right-container .rond {
     left: -20px;
+    right: auto;
 }
+
 
 .timeline::after{
     content: '';
@@ -121,7 +135,7 @@
     left:50%;
     margin-left: -3px;
     z-index: 2;
-    animation:moveline 3s linear forwards;
+    animation:moveline 4s linear forwards;
 }
 
 @keyframes moveline{
@@ -198,7 +212,7 @@
     .left-container-arrow, .right-container-arrow{
         border-right: 15px solid #fff;
         border-left : 0;
-        left: -15px;
+        left:-15px;
     }
 }
 

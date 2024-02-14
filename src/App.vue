@@ -5,6 +5,10 @@ import SkillsList from './components/SkillsList.vue'
 import Accueil from './components/Accueil.vue'
 import WidgetFleche from './components/WidgetFleche.vue'
 import Timeline from './components/Timeline.vue'
+import WidgetFlecheReversed from './components/WidgetFlecheReversed.vue'
+import Contact from './components/Contact.vue'
+
+
 
 
 
@@ -17,7 +21,9 @@ export default defineComponent({
     SkillsList,
     Accueil,
     WidgetFleche,
+    WidgetFlecheReversed,
     Timeline,
+    Contact,
   },
 });
 </script>
@@ -42,10 +48,12 @@ export default defineComponent({
   <div class="custom-bg-color">
     <Timeline/>
   </div>
+  <WidgetFlecheReversed/>
 
-  <div class="scroll-test"></div>
+<Contact/>
 
 </div>
+<div class="espace"></div>
 
 </template>
 
@@ -59,8 +67,9 @@ export default defineComponent({
 }
 
 /* Styles pour le div de test de défilement */
-.scroll-test {
+.espace {
   height: 5000px; /* Ou toute autre hauteur suffisante pour forcer le défilement */
+  background-color: #6b6b6b;
 }
 
 

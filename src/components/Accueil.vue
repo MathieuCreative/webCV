@@ -13,18 +13,18 @@
     Et l'utilisateur peut cliquer sur un bouton et ça affiche la combinaison en question
 -->
 <AccueilProfilePic/>
-<AccueilSwitchPics class="slide-in"/>
+<AccueilAboutMe class="slide-in"/>
 </div>
   </template>
   
   <script lang="ts">
-import AccueilSwitchPics from './AccueilSwitchPics.vue';
+import AccueilAboutMe from './AccueilAboutMe.vue';
 import AccueilProfilePic from './AccueilProfilePic.vue';
 
 export default{
   name: 'Accueil',
   components:{
-    AccueilSwitchPics,
+    AccueilAboutMe,
     AccueilProfilePic,
   },
 
@@ -52,7 +52,7 @@ export default{
 }
 
 .couleur-accueil {
-  background-color: #4D4D4D;
+  background-color: #6b6b6b;
 }
 .scroll-test {
   height: 10vh; /* Ou toute autre hauteur suffisante pour forcer le défilement */

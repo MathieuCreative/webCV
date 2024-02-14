@@ -16,8 +16,8 @@
   </script>
   
   <style scoped>
-  .couleur-accueil {
-    background-color: #4D4D4D;
-  }
+.couleur-accueil {
+  background-color: #6b6b6b;
+}
   </style>
   

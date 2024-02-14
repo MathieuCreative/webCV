@@ -31,6 +31,6 @@ export default{
   background-color: #000956;
 }
 .couleur-accueil {
-  background-color: #4D4D4D;
+  background-color: #6b6b6b;
 }
 </style>
